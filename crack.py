@@ -1,3 +1,13 @@
+"""
+The script compares the letter-frequencies in the english alphabet
+to the letter-frequencies of the input cipher text shifted with each
+one of the 26 possible keys and chooses the one with the smallest difference.
+
+Works very well for cipher texts longer than a few characters.
+
+Use the script encrypt_decrypt.py to easily encrypt a message with a key.
+"""
+
 from collections import defaultdict
 import math
 
